@@ -1,0 +1,55 @@
+site_name: AltaBots.ai OpenAPI
+theme:
+  name: material
+  features:
+  - navigation.expand
+  - navigation.sections
+  - navigation.top
+  - search.suggest
+  - content.code.copy
+nav:
+- API Reference:
+  - API Overview: AltaBots.ai OpenAPI.md
+  - Account API:
+    - Get Agent Information: account/_Get_Agent_Information_.md
+  - Analytics API:
+    - Get Detailed Credit Consumption: analytics/Get_Detailed_Credit_Consumption_.md
+    - Get Total Credit Consumption: analytics/Get_Total_Credit_Consumption_.md
+  - Conversation API:
+    - Agent Feedback Evaluation: conversation/Agent_Feedback_Evaluation.md
+    - Agent Response Feedback: conversation/Agent_Response_Feedback.md
+    - Create Conversation: conversation/Create_Conversation.md
+    - Generate Suggested Questions: conversation/Generate_Suggested_Questions.md
+    - Get Conversation Detail: conversation/Get_Conversation_Detail.md
+    - Get Conversation List: conversation/Get_Conversation_List.md
+    - Get Correlated Dataset: conversation/Get_Correlated_Dataset.md
+    - Human Handoff Service Webhook: conversation/Human_Handoff_Service_Webhook.md
+    - Send Message V2: conversation/Send_Message_V2.md
+    - Webhook Mode V2: conversation/Webhook_Mode_V2.md
+  - Database API:
+    - Add Table Data: database/Add_Table_Data.md
+    - Create Database Table: database/Create_Database_Table.md
+    - Delete Table Data: database/Delete_Table_Data.md
+    - Query Status of Adding Table Data: database/Query_Status_of_Adding_Table_Data.md
+    - Retrieve Database Records: database/Retrieve_Database_Records.md
+    - Update Table Data: database/Update_Table_Data.md
+  - History API:
+    - Get Correlated Document: history/Get_Correlated_Document_.md
+    - Get Q A List: history/Get_Q_A_List_.md
+  - Knowledge API:
+    - Add Chunks Text: knowledge/Add_Chunks_Text.md
+    - Add Spreadsheet Docs: knowledge/Add_Spreadsheet_Docs.md
+    - Add Text Docs: knowledge/Add_Text_Docs.md
+    - Delete Docs: knowledge/Delete_Docs.md
+    - Get Doc List: knowledge/Get_Doc_List.md
+    - Get Knowledge Base List: knowledge/Get_Knowledge_Base_List.md
+    - Query Doc Status: knowledge/Query_Doc_Status.md
+    - Re embed Failed Docs: knowledge/Re-embed_Failed_Docs.md
+    - Update Spreadsheet Docs: knowledge/Update_Spreadsheet_Docs.md
+    - Update Text Docs: knowledge/Update_Text_Docs.md
+    - Vector Similarity Matching: knowledge/Vector_Similarity_Matching.md
+  - Speech API:
+    - Text to Audio: speech/Text_to_Audio.md
+    - Voice to Text: speech/Voice_to_Text.md
+  - Workflow API:
+    - Integrate Workflow: workflow/Integrate_Workflow.md
