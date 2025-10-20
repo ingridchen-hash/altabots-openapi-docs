@@ -53,3 +53,6 @@ nav:
     - Voice to Text: speech/Voice_to_Text.md
   - Workflow API:
     - Integrate Workflow: workflow/Integrate_Workflow.md
+use_directory_urls: false
+docs_dir: docs
+
